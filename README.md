@@ -14,10 +14,10 @@ Please install btoadcasting by using the following command before moving further
         php artisan install:broadcasting
         ```
 
-        install Laravel Reverb
-        install and build the Node dependencies required for broadcasting
+install Laravel Reverb
+install and build the Node dependencies required for broadcasting
 
-        copy build file from public folder to public_html folder and public_html/storage
+copy build file from public folder to public_html folder and public_html/storage
         
 
 ### Vendor Publish
