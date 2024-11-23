@@ -9,14 +9,25 @@ Require this package in your composer.json and update composer. This will downlo
     composer require susheelbhai/larameet
 
 ## Configuration
+
+Update ASSET_URL in .env file
+
+  ```
+  ASSET_URL=http://127.0.0.1:8000/storage
+  ```
+
 Please install btoadcasting by using the following command before moving further
 
-        ```
-        php artisan install:broadcasting
-        ```
+  ```
+  php artisan install:broadcasting
+  ```
 
 ### install Laravel Reverb
 >install and build the Node dependencies required for broadcasting
+>run below commant to create build
+  ```
+  npm run build
+  ```
 >copy build file from public folder to public_html folder and public_html/storage
         
 
@@ -34,9 +45,7 @@ Publish all the required files using the following command
 Migrate  databse tables and seed with the following commands
 
   ```
-  php artisan migrate
-  php artisan db:seed
-  
+  php artisan migrate  
   ```
 
 ### Add code in channel.php

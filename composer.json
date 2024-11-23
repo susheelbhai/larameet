@@ -1,6 +1,6 @@
 {
     "name": "susheelbhai/larameet",
-    "description": "create chat application with audio call in laravel",
+    "description": "create chat application with video call in laravel",
     "type": "library",
     "license": "MIT",
     "autoload": {
