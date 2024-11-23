@@ -1,0 +1,25 @@
+{
+    "name": "susheelbhai/larameet",
+    "description": "create chat application with audio call in laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Susheelbhai\\Larameet\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Susheelbhai\\Larameet\\LarameetServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Susheel Kumar Singh",
+            "email": "susheelkrsingh306@gmail.com"
+        }
+    ],
+    "require": {}
+}
